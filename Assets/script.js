@@ -14,7 +14,7 @@ function getHeaderDate() {
 var saveBtn = document.querySelector('.saveBtn');
 saveBtn.onclick = saveData;
 
-function saveData(){
+function saveData(input){
   var input = document.querySelector(".form-control");
   localStorage.setItem("text", input.value);
   // Checking input value
